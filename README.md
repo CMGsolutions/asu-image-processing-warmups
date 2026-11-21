@@ -4,6 +4,8 @@
 
 This collection progresses from medical-image I/O through supervised prediction, segmentation, localization, and unsupervised learning.
 
+[Read the anonymized chest X-ray report (PDF)](reports/Chest_Xray_Warmup_Report_Anonymized.pdf).
+
 ## Demo guide
 
 All measurements below are historical experiment results, not outcomes of a fresh run of these Python conversions.
@@ -79,7 +81,7 @@ The age result of 8.52 years was selected from repeated test evaluations and is 
 
 `notebooks/` contains the selected complete Colab notebook code, with a new input/output summary. Stored outputs and runtime metadata were cleared for publication; the original downloaded files were left untouched. The incomplete exercises 5–7 duplicate was excluded. [Source checksums](docs/source-manifest.json) identify the original notebook inputs.
 
-The Python conversions remove Colab mounting and notebook package-install commands, expose directory arguments, replace notebook-only table display, support CPU execution, format the code, and guard constant-image DICOM preview scaling. Personal reports are not included.
+The Python conversions remove Colab mounting and notebook package-install commands, expose directory arguments, replace notebook-only table display, support CPU execution, format the code, and guard constant-image DICOM preview scaling. An anonymized research report is included.
 
 Verification: Python syntax, undefined-name checks, import safety, and each command's `--help` passed. Exercise 1 also passed a synthetic end-to-end smoke run: all six expected files were produced, PNG and DICOM pixels were preserved, and a constant-intensity DICOM produced a valid preview. Training and full dataset-dependent execution have **not** been rerun. Historical notebook outputs and metrics are not substitutes for fresh reproduction.
 
