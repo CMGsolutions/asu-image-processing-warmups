@@ -1,0 +1,12 @@
+# TL;DR: Python runtime dependencies for all demos.
+# Input: Python 3.10+ environment. Output: installed image/ML libraries.
+# Compatible recent versions; this is not a historical environment lockfile.
+numpy
+pandas
+matplotlib
+Pillow
+pydicom
+opencv-python
+scikit-learn
+torch
+torchvision

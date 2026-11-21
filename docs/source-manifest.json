@@ -1,0 +1,37 @@
+{
+  "tldr": "Source notebook checksums and corresponding Python files; notebooks published with outputs/metadata cleared.",
+  "inputs": "Six selected downloaded notebooks.",
+  "outputs": "Provenance mapping, not execution verification.",
+  "files": [
+    {
+      "notebook": "exercise_1_colab.ipynb",
+      "source_sha256": "a510206c946f90844f80e7aa5680e4a87f0ee440f42ff8c49295ee478f919ebc",
+      "python": "warmups/warmup_01_image_io.py"
+    },
+    {
+      "notebook": "exercise_2_colab.ipynb",
+      "source_sha256": "9e173b81d1d0ab5ad3166dbb8f0f6bdb232857484038acfa4c396e7ce0c3b5d0",
+      "python": "warmups/warmup_02_orientation.py"
+    },
+    {
+      "notebook": "warmup_exercises_3_and_4_colab.ipynb",
+      "source_sha256": "dba4f881f5ec3b9500e65cb4eec1e7deb302064a6e44ce468e4426b7fef52e87",
+      "python": "warmups/warmups_03_04_classification_regression.py"
+    },
+    {
+      "notebook": "warmup_exercises_5_to_7_colab.ipynb",
+      "source_sha256": "5e5e01620cfff1ba54128bafe43278071d563b982c2332c14340f39b4c21a7a4",
+      "python": "warmups/warmups_05_07_segmentation_localization.py"
+    },
+    {
+      "notebook": "warmup_exercises_8_9_colab.ipynb",
+      "source_sha256": "359e0e743d49bc75113d99bfb5bdb8c56e4663067766a8dbe0dc05f15b2953fb",
+      "python": "warmups/warmups_08_09_autoencoder_clustering.py"
+    },
+    {
+      "notebook": "resnet18_colab.ipynb",
+      "source_sha256": "3e73e878ac5bc964770f2271c7d3c05e9cfb4528c0b0b053035cfa7b03774274",
+      "python": "warmups/prewarmup_resnet18_mnist.py"
+    }
+  ]
+}

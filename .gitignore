@@ -1,0 +1,10 @@
+# TL;DR: Keep local datasets, generated results, and environments out of Git.
+# Inputs: local working files. Output: source/report-only commits.
+.venv/
+__pycache__/
+*.pyc
+data/
+outputs/
+.DS_Store
+*.pt
+*.pth
